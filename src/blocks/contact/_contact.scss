@@ -1,0 +1,74 @@
+.contact {
+    background-color: white;
+    padding-top: 140px;
+    padding-bottom: 160px;
+
+    &__wrapper fieldset {
+    border: 2px solid #3c3c3c;    
+    }
+
+
+    legend {
+    letter-spacing: 6.8px;
+    padding-left: 105px;      
+    padding-right: 105px;
+    margin-bottom: 38px;
+    text-align: center;
+    color: #3c3c3c;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+
+    fieldset p {
+    color: #3c3c3c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;    
+    padding-left: 174px;
+    padding-right: 154px;
+    text-align: center;
+    margin-bottom: 46px;
+    }
+
+    &__paragraph {
+        
+        
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 4px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 395px;
+        height: 58px;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #3c3c3c;
+        margin-bottom: 50px;
+    }
+
+    &__button:hover {
+        background-color: #A5C9FF;
+        transition: 0.2s;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+}
