@@ -1,22 +1,35 @@
 .gallery {
 
 
-
-  &__wrapper img {
-  margin-top: 9px;    
-  margin-right: 10px;    
+  &__wrapper img {   
   }
 
-  &__wrapper1 img {
-  margin-top: 9px;    
-  margin-right: 10px;    
+  &__wrapper1 img {    
   }
 
-  &__picture1 {
+  &__picture1, &__picture2, &__picture3, &__picture4, &__picture5, &__picture6 {
   position: relative;    
+  
   }
 
-  &__picture1 p {
+ &__picture1 {
+   margin-right: 10px;
+   margin-bottom: 9px;
+ }
+
+ &__picture4 {
+   margin-right: 10px;
+ }
+
+ &__picture2 {
+   margin-right: 10px;
+ }
+
+ &__picture5 {
+   margin-right: 10px;
+ }
+
+  &__picture1 p, &__picture2 p, &__picture3 p, &__picture4 p, &__picture5 p, &__picture6 p {
   position: absolute;
   bottom: 42px;
   left: 47px;
@@ -26,5 +39,15 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
+  }
+
+  &__picture1:hover, &__picture2:hover, &__picture3:hover, &__picture4:hover, &__picture5:hover, &__picture6:hover {
+    background-color: rgba(165,201,255, 0.4);
+  }
+
+  img {
+    position: relative;
+    z-index: -1;
+    vertical-align: middle;
   }
 }
