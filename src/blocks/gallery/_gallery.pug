@@ -1,9 +1,9 @@
 mixin gallery
     .gallery
         .container
-            .row
+            .row.d-flex.flex-wrap
                 .col-12
-                    .gallery__wrapper.d-flex.justify-content-center
+                    .gallery__wrapper
                         .gallery__picture1
                             img(src='./img/topworkz.jpg')
                             p Topworkz
@@ -13,7 +13,7 @@ mixin gallery
                         .gallery__picture3    
                             img(src='./img/market.jpg')
                             p Market
-                    .gallery__wrapper1.d-flex.justify-content-center    
+                    .gallery__wrapper
                         .gallery__picture4
                             img(src='./img/worktop.jpg')
                             p Worktop
@@ -23,3 +23,16 @@ mixin gallery
                         .gallery__picture6    
                             img(src='./img/kyiv.jpg')
                             p Kyiv
+        <div class="row">
+            <div class="column">
+                <img src='./img/topworkz.jpg'>
+                <img src='./img/worktop.jpg'>
+            </div>
+            <div class="column">
+                <img src='./img/joint.jpg'>
+                <img src='./img/lable.jpg'>
+            </div>
+            <div class="column">
+                <img src='./img/market.jpg'>
+                <img src='./img/kyiv.jpg'>
+            </div>
